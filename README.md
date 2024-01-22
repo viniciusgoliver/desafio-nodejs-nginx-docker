@@ -17,8 +17,10 @@
 # Executar o container
 
 - Antes de executar o container, crie um arquivo .env e adicione seus dados do banco mysql. Deixei um example.env como referência para implementação.
+- Rode o comando npm install para instalar as dependências do projeto. Depois pode subir o docker.
 
 ```
+npm install
 docker-compose up -d --build
 ```
 
